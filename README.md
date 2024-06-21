@@ -18,7 +18,7 @@ If you want to use another resolution, you need to change the coordinate points 
 
 ## Observations
 
-Some numbers are not well detected or mistake. IT thinks 9 is a 5 and has no idea about the number 7, the number 1 wasn't well detected.
+Some numbers are not well detected or mistaken. It mistakes number 9 with 5 and has no idea about the number 7, the number 1 wasn't well detected.
 
 The solutions on this is making a better image processing algorithm that improves the accuracy for detecting numbers based on images.
 
