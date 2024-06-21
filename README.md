@@ -25,6 +25,6 @@ The solutions on this is making a better image processing algorithm that improve
 The "worst" solution would be to hardcode the array of the representing number as I did with the number 1. As the number 1 wasn't detected, I took the picture of the number one after the image proccessing, then extracted it's numpy array version so, this may work for comparing the undetected number 1 image with the already known number 1 image (hardcoded number 1 array).
 
 
-## Video explination:
+## Video explanation:
 
 https://www.youtube.com/watch?v=QELiV0O-g4s
