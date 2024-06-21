@@ -14,3 +14,12 @@ Sometime you are in red zone farming and you want to chill on your phone a littl
 This code works for screens with a resolution of 1920x1080 (the same resolution as Albion).
 
 If you want to use another resolution, you need to change the coordinate points where screenshots are taken based on the number of PKs on the map. You can obtain these points using the MouseCoordinates.py script.
+
+
+## Observations
+
+Some numbers are not well detected or mistake. IT thinks 9 is a 5 and has no idea about the number 7, the number 1 wasn't well detected.
+
+The solutions on this is making a better image processing algorithm that improves the accuracy for detecting numbers based on images.
+
+The "worst" solution would be to hardcode the array of the representing number as I did with the number 1. As the number 1 wasn't detected, I took the picture of the number one after the image proccessing, then extracted it's numpy array version so, this may work for comparing the undetected number 1 image with the already known number 1 image (hardcoded number 1 array).
