@@ -106,9 +106,9 @@ class GankDetector:
             return ""
             
     def speakNumber(self, number):
-        winsound.Beep(5000, 467)
-        #self.engine.say(f"There are {number} PK")
-        #self.engine.runAndWait()
+        #winsound.Beep(5000, 467)
+        self.engine.say(f"There are {number} PK")
+        self.engine.runAndWait()
 
     def setPKNumber(self, new_number):
         if self.isValidNumber(new_number):
