@@ -7,7 +7,7 @@ This code makes a warning telling the number of PK's in a map on the game Albion
 
 ## Why is useful?
 
-Sometime oyu are in red zone farming anff you want just tp chill on your phone a little bit, or maybe you'd want to go to the bathroom real quick. Then this scripts will make a warning (you can modify the "warning"). In this case there os a voice that "speaks up" the number of pk's.
+Sometime you are in red zone farming and you want to chill on your phone a little bit, or maybe you'd want to go to the bathroom real quick. Then this scripts will make a warning telling the number of PK'S on the zone. (you can modify the "warning"). In this case there os a voice that "speaks up" the number of pk's.
 
 ## How to use?
 
