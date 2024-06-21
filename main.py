@@ -120,19 +120,6 @@ class GankDetector:
     def isValidNumber(self, number):
         return number.isdigit()
 
-    def isGanekrClose(self):
-        try:
-            location = pyautogui.locateAllOnScreen(self.gankerBarPath, confidence=0.9522)
-            if location:
-                for i in range(4):
-                    winsound.Beep(10, 100)
-            else:
-                pass
-        except:
-            pass
-
-
-
 if __name__ == '__main__':
     time.sleep(1.5)
     gankDetector = GankDetector()
