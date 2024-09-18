@@ -1,4 +1,4 @@
-# AlbionGankerWarning
+# Albion ganker warning
 
 ## What is it?
 
